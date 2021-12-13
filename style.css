@@ -107,6 +107,10 @@ body label {
   padding-left: 10px;
 }
 
+body input::placedolder {
+  color: #138073;
+}
+
 body input[type=checkbox] {
   display: inline;
   vertical-align: middle;

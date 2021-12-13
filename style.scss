@@ -99,6 +99,10 @@ body {
         padding-left: 10px;
     }
 
+    input::placedolder {
+        color: #138073;
+    }
+
     input[type=checkbox] {
         display: inline;
         vertical-align: middle;
