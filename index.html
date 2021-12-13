@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Document</title>
+
+    <title>Site build practice</title>
 </head>
 <body>
+    <div id="root">
+        <h3>Jelentkezés</h3>
+        <input type="text" name="name" placeholder="Név">
+        <input type="text" name= "email" placeholder="Email cím">
+        <div>
+            <input type="checkbox" name="consent" id="consent">
+            <label for="consent">Elolvastam és elfogadom az <a href="./tajekoztato.html">Adatkezelési Tájékoztatót</a></label>
+        </div>
+        <button>Elküld</button>
+    </div>
     
 </body>
 </html>
